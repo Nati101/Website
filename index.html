@@ -73,34 +73,55 @@
     <section class="my-work" id="work">
         <h2 class="section__title">My work</h2>
         <p class="section__subtitle"> A selection of my range of work </p>
-
-        <div class="portfolio">
-            <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">
-            </a>
+   
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <!--<img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">-->
+                    
+                    <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg">
+                    <a href="https://mikiswedding.herokuapp.com/">PROJECT</a>
+                    <a href="https://github.com/Nati101/mikiswedding">CODE</a>
+                    <a href="/portfolio-item.html">Read More</a>   
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <!--<img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">-->
+                    
+                    <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg">
+                    <a href="https://mikiswedding.herokuapp.com/">PROJECT</a>
+                    <a href="https://github.com/Nati101/mikiswedding">CODE</a>   
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <!--<img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">-->
+                    
+                    <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg">
+                    <a href="https://mikiswedding.herokuapp.com/">PROJECT</a>
+                    <a href="https://github.com/Nati101/mikiswedding">CODE</a>   
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <!--<img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg" alt="" class="portfolio__img">-->
+                    
+                    <img src="img/altumcode-XMFZqrGyV-Q-unsplash.jpg">
+                    <a href="https://mikiswedding.herokuapp.com/">PROJECT</a>
+                    <a href="https://github.com/Nati101/mikiswedding">CODE</a>   
+                </div>
+            </div>
         </div>
     </section>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare":.3,
+    });</script>
     <!--Footer-->
     <footer class="footer">
         <a href="mailto:bekele@ualberta.ca" class="footer-link">bekele@ualberta.ca</a>
@@ -127,5 +148,6 @@
             </li>
         </ul>
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>

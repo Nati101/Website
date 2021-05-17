@@ -10,7 +10,7 @@
   --ff-secondary: "Source Sans Pro", monospace;
 
   --fw-reg: 300;
-  --fw-bold: 900;
+  --fw-bold: 1000;
 
   --clr-light: #ffff;
   --clr-dark: #303030;
@@ -109,6 +109,7 @@ h3 {
 }
 .section__title--intro strong {
   display: block;
+  font-weight: var(--fw-bold);
 }
 .section__subtitle {
   margin: 0;
@@ -487,4 +488,13 @@ nav {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.protfolio-item-individual img {
+  max-width: 300px;
+  max-height: 500px;
+  box-shadow: var(--bs);
+  margin-left: 15em;
+  margin-bottom: 3em;
+  margin-top: 2em;
 }

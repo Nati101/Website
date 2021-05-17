@@ -497,4 +497,5 @@ nav {
   margin-left: 15em;
   margin-bottom: 3em;
   margin-top: 2em;
+  display: flex;
 }

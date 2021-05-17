@@ -9,9 +9,3 @@ navLinks.forEach(link =>{
         document.body.classList.remove('nav-open');
     })
 })
-
-localStorage.forEach(link => {
-    link.addEventListener('click',() =>{
-        document.body.classList.toggle('')
-    })
-})

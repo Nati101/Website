@@ -141,7 +141,7 @@ header {
 }
 nav {
   position: fixed;
-  background: var(--clr-dark);
+  background: #0d0f1b;
   color: var(--clr-light);
   top: 0;
   bottom: 0;
@@ -165,14 +165,25 @@ nav {
 }
 
 .nav__link {
-  color: inherit;
+  position: relative;
+  display: inline-block;
+  padding: 6px 15px;
   font-weight: var(--fs-body);
   font-size: var(--fs-h2);
   text-decoration: none;
+  background: var(--clr-accent);
+  color: var(--clr-dark);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 1;
 }
-
 .nav__link:hover {
-  color: var(--clr-accent);
+  transform: scale(1.4);
+  z-index: 1000;
+  background: #ff3f81;
+  opacity: 1;
 }
 .nav-toggle {
   padding: 0.5em;
